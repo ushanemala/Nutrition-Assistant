@@ -1,4 +1,4 @@
-import Sidebar from "./sidebar";
+import Sidebar from "./Sidebar";
 
 function PageLayout({ title, children }) {
   return (
