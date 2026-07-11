@@ -21,7 +21,7 @@ function Login() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        "https://nutrition-assistant-8mcc.onrender.com",
         {
           email,
           password,

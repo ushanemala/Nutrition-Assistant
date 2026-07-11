@@ -27,7 +27,7 @@ function Register() {
 
     try {
       await axios.post(
-        "http://localhost:5000/api/auth/register",
+        "https://nutrition-assistant-8mcc.onrender.com/api/auth/register",
         formData
       );
 
