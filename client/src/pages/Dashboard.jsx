@@ -1,4 +1,4 @@
-import Sidebar from "../components/Sidebar";
+import Sidebar from "../components/sidebar";
 
 function Dashboard() {
   const user = JSON.parse(localStorage.getItem("user"));
