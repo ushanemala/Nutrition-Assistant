@@ -21,12 +21,12 @@ function Login() {
       setLoading(true);
 
       const response = await axios.post(
-        "https://nutrition-assistant-8mcc.onrender.com",
-        {
-          email,
-          password,
-        }
-      );
+  "https://nutrition-assistant-8mcc.onrender.com/api/auth/login",
+  {
+    email,
+    password,
+  }
+);
 
       // Save token
       localStorage.setItem("token", response.data.token);
